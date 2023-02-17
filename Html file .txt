@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Fine Food Review Sentiment Analysis</title>
+</head>
+<body>
+    <h1> Sentiment Analysis</h1>
+    <h2>Put your statement and get the sentiment</h2>
+    <form action="/sentiment" method="POST">
+        <label> Enter Statement : </label>
+        <input type="text" name="statement"> <br><br>
+        <input type = "submit" name="Get Sentiment">
+    </form>
+</body>
+</html>
